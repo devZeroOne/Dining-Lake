@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* global style start */
+.button_style {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #db5456;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  border: none;
+  padding: 13px 50px;
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+/* global style end */
+
+/* header style start */
+.header_section {
+  padding: 80px 120px;
+  height: 600px;
+}
+.header_section .left {
+  float: left;
+  width: 50%;
+}
+.header_section .left h1 {
+  font-size: 80px;
+}
+.header_section .left h1 span {
+  font-size: 100px;
+  color: #db5456;
+}
+.header_section .left p {
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.header_section .right {
+  float: right;
+  width: 50%;
+}
+.header_section .right img {
+  border-radius: 50%;
+  width: 90%;
+}
+/* header style end */
+
+/* breakfast style start */
+.breakfast_section {
+  height: 660px;
+  padding: 80px 120px;
+  background-color: #eee;
+}
+
+.card_container {
+  float: left;
+  width: 30%;
+}
+.breakfast_card {
+  width: 350px;
+  background-color: #fff;
+  height: 400px;
+  padding: 40px;
+  margin: 50px 0 0 50px;
+  position: absolute;
+}
+.breakfast_card h2 {
+  font-size: 35px;
+}
+.breakfast_card p {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.breakfast_picture {
+  float: right;
+  width: 70%;
+}
+
+.breakfast_picture img {
+  width: 100%;
+  height: 500px;
+}
+
+/* breakfast style end */
+/* fast food style start */
+.fast_food_section {
+  height: 650px;
+  width: 100%;
+  background-image: url("./images/fastfood.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.fast_food_content {
+  padding: 200px 120px;
+}
+.fast_food_content p {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.fast_food_content h1 {
+  font-size: 70px;
+}
+
+/* fast food style end */
+
+/* footer style start */
+.footer_section {
+  background-color: #000;
+  color: #fff;
+  height: 660px;
+  padding: 80px 120px;
+}
+
+.footer_picture {
+    float: left;
+    width: 40%;
+}
+.footer_picture img{
+    width:100%;
+    height: 500px;
+}
+
+.footer_content{
+    padding: 80px;
+    text-align: center;
+    width: 60%;
+    float: right;
+}
+.footer_content .title{
+    font-size:24px;
+    font-weight: 500;
+}
+
+.footer_content form input{
+    padding: 20px;
+    width: 250px;
+    background-color: #000;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+.submit_btn{
+    border-radius: 0;
+}
+.address{
+    margin-top: 40px;
+}
+.address h3{
+    font-size:24px;
+    font-weight:500;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.address ul li{
+    font-size:18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 5px 0;
+    list-style: none;
+}
+
+
+/* footer style end */
